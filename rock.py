@@ -8,7 +8,7 @@ wep = {1: 'Rock', 2: 'Paper', 3: 'Scissors'}
 opp = random.randint(1, 3)
 decesion = input("> Do you want to play Rock, Paper, or Scissors? ")
 while True:
-    if decesion == 'Yes':
+    if decision == 'Yes':
         print('Lets Play!')
         usr = input("> Choose Rock, Paper, or Scissors: ")
         time.sleep(2)
