@@ -45,13 +45,13 @@ while True:
                 break
             else:
                 break
-    if decesion == 'No':
+    if decision == 'No':
         print(":(")
         sys.exit()
-    decesion2 = input("Do you want to play again? ")
-    if decesion2 == 'Yes':
+    decision2 = input("Do you want to play again? ")
+    if decision2 == 'Yes':
         continue
-    if decesion2 == 'No':
+    if ddecision2 == 'No':
         print(":(")
         sys.exit()
     else:
